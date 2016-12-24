@@ -3,6 +3,6 @@ Simple Telegram Bot for Store Recieved Messages from Users.
 
 ### How to use it
 
-`chmod +x swbkblayouts.sh` 
+`chmod +x telegrambot.py` 
 
-`./swbkblayouts.sh`
+`./telegrambot.py`
