@@ -19,7 +19,7 @@ def getCm(bot, update):
     userName = userInfo['username']
     userFirstName = userInfo['first_name']
     userLastName = userInfo['last_name']
-    cn = sqlite3.connect("botDb.sqlite")
+    cn = sqlite3.connect("zthdb.sqlite")
     cn.execute("PRAGMA ENCODING = 'utf8';")
     cn.text_factory = str
     cn.execute("CREATE TABLE IF NOT EXISTS user_comment(u_id MEDIUMINT, u_name VARCHAR(100), u_first_name VARCHAR(100), u_last_name VARCHAR(100), u_comment TEXT, u_time DATETIME);")
