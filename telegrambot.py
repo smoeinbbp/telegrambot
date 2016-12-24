@@ -39,8 +39,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 start_handler = CommandHandler('start', start)
 dispatcher.add_handler(start_handler)
 
-echo_handler = MessageHandler([Filters.text], getCm)
-dispatcher.add_handler(echo_handler)
+cm_handler = MessageHandler([Filters.text], getCm)
+dispatcher.add_handler(cm_handler)
 
 unknown_handler = MessageHandler([Filters.command], unknown)
 dispatcher.add_handler(unknown_handler)
