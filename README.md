@@ -1,5 +1,5 @@
 # telegrambot
-Simple Telegram Bot for Store Recieved Messages from Users.
+Simple Telegram Bot for Storing Received Messages from Users.
 
 ### How to use it
 
